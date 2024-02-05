@@ -1,11 +1,12 @@
-.header, .footer {
+.header, footer {
     background-color: #1F2937;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    padding: 15px;
 }
 
 .secondary, ul {
@@ -15,7 +16,7 @@
 
 .main {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -26,4 +27,46 @@ ul {
     list-style: none;
 }
 
+button, .cta {
+    background-color: #3882F6;
+    color: white;
+}
 
+.info{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+footer{
+    padding: 25px;
+    text-align: center;
+}
+.cta {
+    margin: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 3px 15px;
+}
+
+.a {
+    border-color: #3882F6;
+}
