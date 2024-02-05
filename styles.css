@@ -36,6 +36,7 @@ button, .cta {
     font-size: 36px;
     color: #1F2937;
     font-weight: 800;
+    text-align: center;
 }
 
 .quote {
@@ -69,4 +70,21 @@ button {
 
 .a {
     border-color: #3882F6;
+}
+
+.b {
+    border-color: white;
+   
+}
+
+.one {
+    border: 5px solid #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
