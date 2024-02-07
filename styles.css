@@ -66,6 +66,7 @@ footer{
 button {
     border-radius: 5px;
     padding: 3px 15px;
+    max-width: 150px;
 }
 
 .a {
@@ -87,4 +88,16 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.img {
+display: flex;
+align-self: flex-start;
+flex-direction: column;
+}
+
+.twa {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    max-width: 300px;
 }
