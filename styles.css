@@ -6,23 +6,36 @@
 .header {
     padding-top: 10px;
     padding-left: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    flex-wrap: wrap;
 }
+
+.top {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+       
+}
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+    align-items: flex-end;
+  }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-   
+   padding-right: 200px;
+   padding-left: 50px;
 }
 
 
 .secondary, ul {
     font-size: 18px;
     color: #E5E7EB;
+    list-style: none;
 }
 
 .main {
