@@ -8,27 +8,29 @@
     padding-left: 50px;
 }
 
-.top {
-    display: flex;
+.top{
+    display: flex
 }
 
 ul {
     list-style: none;
-    padding: 0px;
+    padding: 10px;
        
 }
   
   li {
     display: inline;
     margin-right: 10px;
-    align-items: flex-end;
+   text-align: end;
+   
   }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-   padding-right: 200px;
+   padding-right: 100px;
    padding-left: 50px;
+   display: inline;
 }
 
 
@@ -67,11 +69,16 @@ button, .cta {
 
 body{
     margin: 0;
+    align-items: center;
+
 }
 
 footer{
     padding: 25px;
     text-align: center;
+    padding-left: 100%;
+    padding-right: 100%;
+    
 }
 .cta {
     margin: 25px 50px;
@@ -105,12 +112,13 @@ button {
 .boxes {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
+    
+ }
+
 .img {
 display: flex;
-align-self: flex-start;
-flex-direction: column;
+justify-content: flex-end;
+
 }
 
 .twa {
