@@ -1,55 +1,63 @@
 .header, footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    border:  rgb(236, 21, 6) solid 5px;
+    
 }
 
-.header {
-    padding-top: 10px;
-    padding-left: 50px;
-}
+
 
 .top{
-    display: flex
+    display: flex;
+    align-items: center;
+    
 }
 
 ul {
     list-style: none;
     padding: 10px;
-       
-}
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: flex-end;
+    }
   
   li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
    text-align: end;
    
   }
 
 .logo {
-    color: #F9FAF8;
-    font-size: 24px;
+   color: #F9FAF8;
+   font-size: 24px;
    padding-right: 100px;
    padding-left: 50px;
-   display: inline;
-}
+   margin-right: auto;
+   }
 
 
-.secondary, ul {
+.secondary {
     font-size: 18px;
     color: #E5E7EB;
     list-style: none;
+    border:  rgb(43, 23, 221) solid 5px;
 }
 
 .main {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    border:  rgb(151, 33, 219) solid 5px;
 }
 
 
 button, .cta {
     background-color: #3882F6;
     color: white;
+    border:  rgb(228, 37, 196) solid 5px;
 }
 
 .info{
@@ -57,6 +65,7 @@ button, .cta {
     color: #1F2937;
     font-weight: 800;
     text-align: center;
+    border:  rgb(94, 8, 34) solid 5px;
 }
 
 .quote {
@@ -65,20 +74,21 @@ button, .cta {
     font-style: italic;
     color: #1F2937;
     font-family: sans-serif;
+    border:  rgb(5, 23, 39) solid 5px;
 }
 
 body{
     margin: 0;
     align-items: center;
-
-}
+    border:  rgb(103, 238, 103) solid 5px;
+    }
 
 footer{
     padding: 25px;
     text-align: center;
     padding-left: 100%;
     padding-right: 100%;
-    
+    border:  rgb(224, 149, 231) solid 5px;
 }
 .cta {
     margin: 25px 50px;
@@ -86,39 +96,43 @@ footer{
     flex-direction: column;
     padding-left: 100px;
     border-radius: 10px;
+    border:  rgb(154, 127, 230) solid 5px;
 }
 
 button {
     border-radius: 5px;
     padding: 3px 15px;
     max-width: 150px;
+    border:  rgb(63, 70, 63) solid 5px;
 }
 
 .a {
     border-color: #3882F6;
+    border:  rgb(59, 40, 29) solid 5px;
 }
 
 .b {
     border-color: white;
-   
+    border:  rgb(138, 156, 88) solid 5px;
 }
 
 .one {
     border: 5px solid #3882F6;
     padding: 50px;
     border-radius: 10px;
+    border:  rgb(1, 36, 1) solid 5px;
 }
 
 .boxes {
     display: flex;
     flex-direction: column;
-    
+    border:  rgb(235, 95, 52) solid 5px;
  }
 
 .img {
 display: flex;
 justify-content: flex-end;
-
+border:  rgb(250, 171, 2) solid 5px;
 }
 
 .twa {
@@ -127,4 +141,5 @@ justify-content: flex-end;
     flex-grow: 0;
     max-width: 300px;
     padding: 50px;
+    border:  rgb(216, 240, 132) solid 5px;
 }
