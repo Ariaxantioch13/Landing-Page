@@ -5,39 +5,61 @@
     
 }
 
-
-
-.top{
+.header {
     display: flex;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     
 }
 
-ul {
-    list-style: none;
-    padding: 10px;
-    justify-content: center;
+.top{
     display: flex;
-    font-size: 18px;
-    color: #E5E7EB;
     justify-content: flex-end;
-    }
-  
-  li {
-    display: inline;
-    margin-right: 20px;
-   text-align: end;
-   
-  }
+    border:  rgb(43, 23, 221) solid 5px;
+    max-height: 100px;
+   max-width: 1000px;
+   width: 100%
+}
 
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    max-height: 75px;
+   max-width: 100%;
+    border:  rgb(43, 23, 221) solid 5px;
+    }
+
+    
 .logo {
    color: #F9FAF8;
    font-size: 24px;
-   padding-right: 100px;
-   padding-left: 50px;
-   margin-right: auto;
+   max-height: 75px;
+   max-width: 100%;
+   border:  rgb(43, 23, 221) solid 5px;
    }
 
+   .img {
+    border:  rgb(250, 171, 2) solid 5px;
+    max-width: 500px;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .twa {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      padding: 10px;
+      margin-top: 150px;
+      margin-right: 100px;
+      border:  rgb(216, 240, 132) solid 5px;
+      width: 400px;
+      
+  }
 
 .secondary {
     font-size: 18px;
@@ -51,6 +73,8 @@ ul {
     font-weight: 800;
     color: #F9FAF8;
     border:  rgb(151, 33, 219) solid 5px;
+    margin: 0;
+    max-width: fit-content;
 }
 
 
@@ -77,13 +101,17 @@ button, .cta {
     border:  rgb(5, 23, 39) solid 5px;
 }
 
-body{
+body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     align-items: center;
     border:  rgb(103, 238, 103) solid 5px;
-    }
+      max-width: 100%;
+      padding: 0;
+      }
 
-footer{
+footer {
     padding: 25px;
     text-align: center;
     padding-left: 100%;
@@ -129,17 +157,4 @@ button {
     border:  rgb(235, 95, 52) solid 5px;
  }
 
-.img {
-display: flex;
-justify-content: flex-end;
-border:  rgb(250, 171, 2) solid 5px;
-}
 
-.twa {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0;
-    max-width: 300px;
-    padding: 50px;
-    border:  rgb(216, 240, 132) solid 5px;
-}
