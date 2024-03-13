@@ -1,10 +1,13 @@
 body {
-    font-family: roboto;
+    font-family: roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*Header section with Logo, Links, Hero, image, and button*/
 .header {
     background: #1F2937;
+    padding: 15px 100px 15px 100px;
 }
 
 .logo {
@@ -44,4 +47,8 @@ button {
     color: #F9FAf8;
     font-weight: bold;
     font-size: 20px;
+}
+
+.logo, ul {
+    display: flex
 }
