@@ -7,18 +7,28 @@ body {
 /*Header section with Logo, Links, Hero, image, and button*/
 .header {
     background: #1F2937;
-    padding: 15px 100px 15px 100px;
+    padding: auto;
 }
 
 .logo {
     color: #F9FAf8;
     font-size: 24px;
+    padding-right: 450px;
 }
 
 ul {
     color: #E5E7EB;
     font-size: 18px;
     list-style: none;
+    
+}
+
+li {
+    display: inline;
+    padding-right: 100px;
+    text-wrap: none;
+    width: 10px;
+    border: blue 1px solid;
 }
 
 h1 {
@@ -49,6 +59,8 @@ button {
     font-size: 20px;
 }
 
-.logo, ul {
-    display: flex
+.top {
+    display: flex;
+
+
 }
