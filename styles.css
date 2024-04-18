@@ -15,7 +15,7 @@ body {
 .header {
    margin-left: 300px;
    margin-right: 300px;
-   
+
 }
 
 .logo {
@@ -91,7 +91,7 @@ button {
 
 .sri {
     color: #1F2937;
-    font-weight: 900;
+    font-weight: bolder;
     font-size: 36px;
     text-align: center;
     margin-bottom: 35px;
@@ -152,4 +152,36 @@ button {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+/* Third section*/
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+       
+}
+.container {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.qt {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.sig {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
 }
