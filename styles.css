@@ -83,7 +83,7 @@ button {
 }
 /*End header*/
 
-/*Start box section*/
+/*Start box section 2nd section*/
 
 .sec2 {
    margin-bottom: 50px;
@@ -153,8 +153,9 @@ button {
     margin-left: 20px;
     margin-right: 20px;
 }
+/*End 2nd section*/
 
-/* Third section*/
+/* Quote section 3rd section*/
 
 .quote {
     background-color: #E5E7EB;
@@ -167,16 +168,15 @@ button {
        
 }
 .container {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: auto;
+    width: 900px;
 }
 
 .qt {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    text-align: center;
-    
+    margin-bottom: 0;
 }
 
 .sig {
@@ -184,4 +184,47 @@ button {
     font-size: 28px;
     font-weight: bold;
     text-align: right;
+}
+/*End 3rd section*/
+
+/*Call to action 4th section*/
+
+.cta {
+   margin: 100px 75px 100px 75px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cont {
+   display: flex;
+   background-color: #3882F6;
+   width: 1000px;
+   height: 150px;
+   align-items: center;
+   border-radius: 8px;
+   justify-content: space-evenly;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.call {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.call2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.but2 {
+    border: #E5E7EB solid;
 }
