@@ -5,7 +5,7 @@ body {
     
 }
 
-/*Header section with Logo, Links, Hero, image, and button*/
+/*Header section  1st section*/
 .align {
     background: #1F2937;
     padding-bottom: 100px;
@@ -227,4 +227,21 @@ button {
 
 .but2 {
     border: #E5E7EB solid;
+}
+
+/*End 4th Section*/
+
+/*Footer 5th section*/
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+   font-size: 20px;
+    color: #E5E7EB;
 }
